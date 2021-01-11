@@ -7,7 +7,7 @@ class ContactMe extends Component {
         this.state={
             name:'',
             email:'',
-            message:''
+            message:'',
         }
         this.handleSubmit=this.handleSubmit.bind(this);
         this.handleNameChange=this.handleNameChange.bind(this);
